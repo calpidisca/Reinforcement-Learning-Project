@@ -1,2 +1,2 @@
 # Reinforcement-Learning-Project
-Project assignment in sogang univ. course (AIE5101-01)
+Project assignment of course (AIE5101-01) in sogang univ.
