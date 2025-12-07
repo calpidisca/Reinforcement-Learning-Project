@@ -1,0 +1,14 @@
+gymnasium>=0.29.0
+stable-baselines3>=2.0.0
+sb3-contrib>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+# torch>=2.0.0  # Note: Install CUDA version separately
+# Install PyTorch with CUDA support:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# or for CUDA 12.4:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+tqdm>=4.65.0
+tensorboard>=2.14.0
+
+
