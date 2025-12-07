@@ -1,6 +1,12 @@
-# Superpermutation RL Research Codebase
+# Superpermutation RL Research
 
-이 프로젝트는 강화학습(RL) 알고리즘을 사용하여 superpermutation 문제를 해결하는 연구 코드베이스입니다.
+본 리포지토리는 **강화학습(Reinforcement Learning)** 알고리즘을 활용하여 **Superpermutation** 문제를 연구하고 해결하기 위한 코드베이스입니다.
+
+서강대학교 **CSEG516/AIEG101 강화학습개론** 강의의 프로젝트 과제로 수행되었습니다.
+이 프로젝트의 구현 과정에서 생성형 AI(ChatGPT, CursorAI 등)를 활용하였습니다.
+
+실험을 통해 얻은 학습 로그와 모델 파라미터는 다음 저장소에서 제공됩니다.
+https://drive.google.com/drive/folders/1bLRjT4f42chnRpkZ3_Hau39fVD4Txfu-?usp=sharing
 
 ## 목표
 
@@ -184,4 +190,6 @@ Superpermutation은 relabeling symmetry를 고려하여 canonicalize됩니다:
 - 모든 실험 설정은 `config.py`에서 중앙 관리됩니다.
 - 학습 알고리즘의 경우 모델 파라미터가 저장되어 나중에 로드할 수 있습니다.
 - 성공한 에피소드 중 최단 길이 상위 5개만 저장됩니다 (callbacks.py의 top_k=5).
+- colab용으로 변경한 파일 및 추가적으로 변형한 파일은 branch에 있습니다.
+
 
